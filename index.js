@@ -36,6 +36,13 @@ const division = (op1, op2) => {
 
 }
 
-module.exports = {suma, resta, multiplicacion, division};
+const cuadrado = (op1) => {
+
+    let resultado = op1 * op1;
+
+    return resultado;
+}
+
+module.exports = {suma, resta, multiplicacion, division, cuadrado};
 
 const libreria1 = require ("./index");
