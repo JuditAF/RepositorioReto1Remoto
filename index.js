@@ -4,14 +4,6 @@
 // *   module.exports =
 // * A continuación escribir el nombre de las funciones entre {} separados por comas de la librería que se desean exportar
 
-const suma = (op1, op2) => {
-
-    let resultado = op1 + op2;
-
-    return resultado;
-
-}
-
 const resta = (op1, op2) => {
 
     let resultado = op1 - op2;
@@ -43,6 +35,6 @@ const cuadrado = (op1) => {
     return resultado;
 }
 
-module.exports = {suma, resta, multiplicacion, division, cuadrado};
+module.exports = {resta, multiplicacion, division, cuadrado};
 
 const libreria1 = require ("./index");
